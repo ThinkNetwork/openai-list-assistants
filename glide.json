@@ -1,10 +1,9 @@
-
 [
   {
     "kind": "column",
-    "name": "OpenAI (Text Generation)",
-    "description": "Generate text with OpenAI. If you want to level-up your Glide skills for free, head to https://loqode.com 🚀",
-    "author": "Marco Volpato <marco@loqode.com>",
+    "name": "List OpenAI Assistants",
+    "description": "Retrieve a list of assistants from OpenAI's API.",
+    "author": "Your Name <your.email@example.com>",
     "params": [
       {
         "name": "api_key",
@@ -12,39 +11,14 @@
         "type": "string"
       },
       {
-        "name": "system_prompt",
-        "displayName": "System Prompt",
+        "name": "order",
+        "displayName": "Order (asc/desc)",
         "type": "string"
       },
       {
-        "name": "message",
-        "displayName": "Message (Required)",
-        "type": "string"
-      },
-      {
-        "name": "model",
-        "displayName": "Model",
-        "type": "string"
-      },
-      {
-        "name": "temperature",
-        "displayName": "Temperature",
+        "name": "limit",
+        "displayName": "Limit (Number of results)",
         "type": "number"
-      },
-      {
-        "name": "max_tokens",
-        "displayName": "Maximum Length",
-        "type": "number"
-      },
-      {
-        "name": "frequency_penalty",
-        "displayName": "Frequency Penalty",
-        "type": "number"
-      },
-      {
-        "name": "json",
-        "displayName": "JSON Schema (Output)",
-        "type": "string"
       }
     ],
     "result": {
