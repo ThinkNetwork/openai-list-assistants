@@ -1,0 +1,54 @@
+
+[
+  {
+    "kind": "column",
+    "name": "OpenAI (Text Generation)",
+    "description": "Generate text with OpenAI. If you want to level-up your Glide skills for free, head to https://loqode.com 🚀",
+    "author": "Marco Volpato <marco@loqode.com>",
+    "params": [
+      {
+        "name": "api_key",
+        "displayName": "OpenAI API Key (Required)",
+        "type": "string"
+      },
+      {
+        "name": "system_prompt",
+        "displayName": "System Prompt",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "displayName": "Message (Required)",
+        "type": "string"
+      },
+      {
+        "name": "model",
+        "displayName": "Model",
+        "type": "string"
+      },
+      {
+        "name": "temperature",
+        "displayName": "Temperature",
+        "type": "number"
+      },
+      {
+        "name": "max_tokens",
+        "displayName": "Maximum Length",
+        "type": "number"
+      },
+      {
+        "name": "frequency_penalty",
+        "displayName": "Frequency Penalty",
+        "type": "number"
+      },
+      {
+        "name": "json",
+        "displayName": "JSON Schema (Output)",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
